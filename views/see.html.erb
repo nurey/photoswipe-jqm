@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+    <link href="/stylesheets/jquery.mobile-1.0b1.min.css?1309451924" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/mobile.css?1305057246" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/photoswipe.css?1308946380" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/jquery-1.6.1.min.js?1309451924" type="text/javascript"></script>
+<script src="/javascripts/mobile_application.js?1303405311" type="text/javascript"></script>
+<script src="/javascripts/jquery.mobile-1.0b1.min.js?1309451924" type="text/javascript"></script>
+<script src="/javascripts/simple-inheritance.min.js?1308946380" type="text/javascript"></script>
+<script src="/javascripts/code-photoswipe-jQuery-1.0.14.min.js?1308946378" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Images</title> 
+</head> 
+<body> 
+
+<div data-role="page">
+
+    <div data-role="header" data-theme="d" data-id="users-header" data-position="fixed">
+    <div id="header" class="banner">
+        <div id="name">
+        John Smith</div>
+        <div id="officename">
+        </div>
+    </div>
+</div><!-- /header -->
+
+    <div data-role="content">   
+        <script type="text/javascript">
+$(document).ready(function() {
+  // $('#gallery a').photoSwipe();
+  var thumbEls = Code.photoSwipe('a', '#gallery');
+
+  Code.PhotoSwipe.Current.show(0);
+});
+</script>
+
+<div id="gallery">
+      <div class="gallery-item">
+      <a href="/images/Pensive Parakeet.jpg?1309454912"><img alt="Pensive parakeet" src="/images/thumb/Pensive Parakeet.jpg?1309454912" /></a>
+        </div>
+      <div class="gallery-item">
+      <a href="/images/Costa Rican Frog.jpg?1309454908"><img alt="Costa rican frog" src="/images/thumb/Costa Rican Frog.jpg?1309454908" /></a>
+        </div>
+      <div class="gallery-item">
+      <a href="/images/Boston City Flow.jpg?1308270590"><img alt="Boston city flow" src="/images/thumb/Boston City Flow.jpg?1308270590" /></a>
+        </div>
+</div>
+
+
+    </div>
+    
+    <div data-role="footer" data-theme="a" class="nav-glyphish" data-id="listings-footer" data-position="fixed">
+        <div data-role="navbar" class="nav-glyphish">
+            <ul class="listings">
+                <li><a href="/hello" data-icon="custom" data-transition="none" id="info">info</a></li>
+                <li><a href="/see" data-icon="custom" data-transition="none" id="images">images</a></li>
+            </ul>
+        </div><!-- /navbar -->  
+    </div><!-- /footer -->
+</div>
+    
+</body>
+</html>
+
+

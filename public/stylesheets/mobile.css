@@ -1,0 +1,14 @@
+.banner { height: 50px; overflow:auto; position: relative; }
+.banner img { float: left; margin: 0px 4px 0px 0px; padding: 0; }
+.banner #name { position: absolute; top: 5px; left: 50px; }
+.banner #officename { position: absolute; bottom: 5px; left: 50px; }
+.nav-glyphish .ui-btn .ui-btn-inner { padding-top: 28px !important; }
+.nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 22px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: none !important; border-radius: none !important; }
+ul.listings #info .ui-icon { background:  url(/images/mobile-house.png) 50% 50% no-repeat; background-size: 22px 22px; }
+ul.listings #images .ui-icon { background:  url(/images/mobile-camera.png) 50% 50% no-repeat; background-size: 24px 18px;  }
+ul.listings #contact .ui-icon { background:  url(/images/mobile-id-card.png) 50% 50% no-repeat;  background-size: 24px 17px; }
+ul.listings #share .ui-icon { background:  url(/images/mobile-envelope.png) 50% 50% no-repeat;  background-size: 24px 16px; }
+
+ul.users #properties .ui-icon { background:  url(/images/mobile-house.png) 50% 50% no-repeat; background-size: 22px 22px; }
+ul.users #contact .ui-icon { background:  url(/images/mobile-id-card.png) 50% 50% no-repeat;  background-size: 24px 17px; }
+ul.users #share .ui-icon { background:  url(/images/mobile-envelope.png) 50% 50% no-repeat;  background-size: 24px 16px; }
