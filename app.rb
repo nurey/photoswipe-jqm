@@ -8,6 +8,6 @@ get '/see' do
   erb :see
 end
 
-get '/hello' do
-  erb :hello
+get '/info' do
+  erb :info
 end
